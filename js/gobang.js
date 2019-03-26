@@ -180,6 +180,8 @@ var computerAI=function(){
 						myScore[i][j]+=2000
 					}else if(myWin[k]==4){
 						myScore[i][j]+=10000
+					}else if(myWin[k]==5){
+						myScore[i][j]+=21000
 					}
 					//计算机
 					if(computerWin[k]==1){
